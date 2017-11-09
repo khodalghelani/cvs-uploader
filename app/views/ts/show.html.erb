@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @t.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @t.description %>
+</p>
+
+<p>
+  <strong>Author:</strong>
+  <%= @t.author %>
+</p>
+
+<p>
+  <strong>Tags:</strong>
+  <%= @t.tags %>
+</p>
+
+<%= link_to 'Edit', edit_t_path(@t) %> |
+<%= link_to 'Back', ts_path %>
